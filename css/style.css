@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Poppins:wght@400;600;700&display=swap');
+
+
+/* Utilities  */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+img {
+    width: 100%;
+}
+
+
+.grid {
+    display: grid;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    max-width: 1150px;
+    margin:  0 auto;
+    padding: 0 20px;
+
+}
+.img-container, .text-container {
+    width: 100%;
+}
+.button {
+    color: #fff;
+    background-color: #e02c6d;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px 24px;
+}
+
+.width {
+    width: 100%;
+}
+/* Navigation Bar  */
+nav {
+    margin: 87px  0;
+}
+nav .container{
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    gap: 34px;
+    font-weight: 600;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+/* Showcase */
+
+.showcase {
+    align-items: center;
+    gap: 133px;
+}
+.showcase .text-container {
+    flex-direction: column;
+    gap: 16px;
+    max-width: 582px;
+}
+.showcase .title {
+    font-size: 52px ;
+    line-height: 70px;
+}
+.showcase .button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 41px;
+}
+.showcase i {
+    font-weight: 600;
+}
+
+/* Brands Style */
+.brands {
+    margin: 100px auto;
+    gap: 60px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* Popular Collections */
+.collections {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 100px;
+}
+.collection {
+    flex-direction: column;
+    box-shadow: 0px 2px 10px rgba(99, 93, 93, 0.4);
+    padding: 15px
+}
